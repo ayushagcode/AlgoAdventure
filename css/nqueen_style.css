@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #001D4C;
+}
+
+.heading {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.heading h1 {
+    color: white;
+}
+
+.half {
+    float: left;
+  }
+
+  h2, h3 {
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 50px;
+  }
+
+  ol, ul {
+    margin-bottom: 20px;
+    float: left;
+    padding-left: 40px;
+
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .info{
+    text-align: left;
+    padding: 10px 20px 0px 20px;
+    line-height: 25px;
+  }
+.start {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.container{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    top: 0;
+
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    padding-left: 30px;
+    top: 0;
+}
+
+#play{
+    font-size: 100px;
+}
+#play-info{
+    font-size: 100px;
+}
+.b-img{
+    height: 500px;;
+    width: 700px;;
+    top: 75px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.play {
+    color: #aaa6a6;
+    cursor: pointer;
+    transition: .4s;
+    display: flex;
+    padding: 0px 50px;
+}
+
+.play:hover {
+    color: purple;
+    /* box-shadow: 0 0 40px rgb(81 81 81 / 70%), 0 0 40px rgb(81 81 81 / 70%); */
+}
+
+.levels {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    width: 300px;
+
+}
+
+.levels h1 {
+    margin-top: 8px;
+    color: #818181;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.levels .btn {
+
+    margin: 9px 0;
+    display: block;
+    padding: 26px;
+    font-size: 20px;
+    width: 300px;
+    color: #818181;
+    font-weight: 400;
+    border: 2px solid #818181;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: .4s;
+}
+
+.btn:hover {
+    color: purple;
+    border: 2px solid purple;
+    box-shadow: 0 0 40px rgb(81 81 81 / 70%), 0 0 40px rgb(81 81 81 / 70%);
+}
+
+.chess-board {
+    background-color: rgb(8, 8, 8);
+    margin: auto;
+    margin-top: 10px;
+    border: 15px solid rgb(0, 0, 0);
+    height: 590px;
+    width: 590px;
+    display: grid;
+    box-shadow: 0 0 40px rgb(81 81 81 / 70%), 0 0 40px rgb(81 81 81 / 70%);
+}
+
+.chess-board .block {
+    padding: 10%;
+    background-color: #999;
+}
+
+.queen {
+    position: absolute;
+    transition: left 0.1s linear;
+
+}
+
+.content {
+    margin: auto;
+    width: 600px;
+}
+
+.content .btn {
+    /* display:inline-flex */
+    /* margin :0 200px; */
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 38px;
+    width: 251px;
+    color: #818181;
+    font-weight: 400;
+    border: 2px solid #818181;
+    background-color: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: .4s;
+}
+
+#back {
+    margin-left: 11px;
+    margin-right: 81px;
+}
+
+#check {
+    position: relative;
+    /* transition:left .4s linear; */
+    left: 0;
+    right: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 10vh;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer p{
+    margin-left: 20px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+}
